@@ -1,0 +1,27 @@
+<PropertyList>
+
+	<submodel>
+		<name>M-17.001-submodel</name>
+		<model>JPack/Voodoomaster/Services/</model>
+  <trigger>/sim/weapons/loadout[1]/bomb[0]/dropped</trigger>
+  <repeat>false</repeat>
+  <count>1</count>
+  <speed>0</speed>
+  <wind>false</wind>
+  <aero-stabilised>true</aero-stabilised>
+  <eda>1.42</eda>
+  <cd>0.75</cd>
+  <weight>500</weight>
+  <x-offset>-49.3968</x-offset>
+  <y-offset>1.968</y-offset>
+  <z-offset>-1.8368</z-offset>
+  <pitch-offset>0</pitch-offset>
+  <yaw-offset>0</yaw-offset>
+  <life>900</life>
+  <delay>0</delay>
+  <impact>true</impact>
+  <impact-reports>sim/ai/aircraft/impact/bomb</impact-reports>
+</submodel>
+
+</PropertyList>
+
