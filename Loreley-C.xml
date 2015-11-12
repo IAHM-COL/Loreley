@@ -77,7 +77,7 @@
 		<location name="CG" unit="IN">
 			<x> 424.38 </x>
 			<y>   0.00 </y>
-			<z> -21.85 </z>
+			<z>   0.00 </z>
 		</location>
 
 		<pointmass name="Pilot">
@@ -86,7 +86,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x>  24.38 </x>
 				<y>   0.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -96,7 +96,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y>-180.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -106,7 +106,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y>-150.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -116,7 +116,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y>-120.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -126,7 +126,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y>-90.00 </y>
-				<z> -21.85 </z>
+				<z>  0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -136,7 +136,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y> -60.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -146,7 +146,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y>   0.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -156,7 +156,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y>  60.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -166,7 +166,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y> 90.00 </y>
-				<z> -21.85 </z>
+				<z>  0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -176,7 +176,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y> 120.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -186,7 +186,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y> 150.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -196,7 +196,7 @@
 			<location name="POINTMASS" unit="IN">
 				<x> 524.38 </x>
 				<y> 180.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 		</pointmass> 
 
@@ -256,7 +256,7 @@
 			<location unit="IN">
 				<x> 524.38 </x>
 				<y> -24.09 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 			<static_friction>  1.00 </static_friction>
 			<dynamic_friction> 1.00 </dynamic_friction>
@@ -268,7 +268,7 @@
 			<location unit="IN">
 				<x> 524.38 </x>
 				<y>  24.09 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 			<static_friction>  1.00 </static_friction>
 			<dynamic_friction> 1.00 </dynamic_friction>
@@ -440,7 +440,7 @@
 			<location unit="IN">
 				<x> 424.38 </x>
 				<y>   0.00 </y>
-				<z> -21.85 </z>
+				<z>   0.00 </z>
 			</location>
 			<capacity unit="LBS"> 4047.57 </capacity>
 			<contents unit="LBS"> 2023.79 </contents>
@@ -449,8 +449,8 @@
 		<tank type="FUEL" number="1">
 			<location unit="IN">
 				<x> 424.38 </x>
-				<y>   0.00 </y>
-				<z> -21.85 </z>
+				<y> -120.00 </y>
+				<z>   0.00</z>
 			</location>
 			<capacity unit="LBS"> 4047.57 </capacity>
 			<contents unit="LBS"> 2023.79 </contents>
@@ -459,8 +459,8 @@
 		<tank type="FUEL" number="2">
 			<location unit="IN">
 				<x> 424.38 </x>
-				<y>   0.00 </y>
-				<z> -21.85 </z>
+				<y> 120.00 </y>
+				<z>   0.00 </z>
 			</location>
 			<capacity unit="LBS"> 4047.57 </capacity>
 			<contents unit="LBS"> 2023.79 </contents>
@@ -1085,7 +1085,7 @@
 		<force name="pushback" frame="BODY">
 			<location unit="IN">
 				<x>-194</x>
-				<y>-10</y>
+				<y>   0</y>
 				<z>-249</z>
 			</location>
 			<direction>

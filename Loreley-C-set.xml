@@ -465,7 +465,7 @@ SU-37 by Lee Elliott
 			<line></line>
 		</help>
 
-		<menubar include="Dialogs/pilot_menu.xml"/>
+		<menubar include="Dialogs/pilot_menuC.xml"/>
 
 		<!-- fuel-fraction>0.6</fuel-fraction -->
 	  
