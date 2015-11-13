@@ -31,7 +31,7 @@
 
   <model>
  <name>RedLight</name>
-    <path>Aircraft/SU-37/Models/Lights/normal/RedLight.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/normal/RedLight.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>
@@ -41,7 +41,7 @@
   
   <model>
  <name>RedLight2</name>
-    <path>Aircraft/SU-37/Models/Lights/remb/NavLightL.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/remb/NavLightL.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>

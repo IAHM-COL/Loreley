@@ -34,7 +34,7 @@
  
   <!-- Landing lights -->
    <model>
-<path>Aircraft/SU-37/Models/Lights/normal/landinglight.xml</path>
+<path>Aircraft/Loreley/Models/Lights/normal/landinglight.xml</path>
 <name>NoseGearLandinglight</name>     
 <condition>
  <equals>
@@ -54,7 +54,7 @@
 
 <model>
     <name>Taxi-Light</name>
-    <path>Aircraft/SU-37/Models/Lights/normal/light-cone.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/normal/light-cone.xml</path>
     <offsets>
        <x-m>0</x-m>
       <y-m>0</y-m>
@@ -66,7 +66,7 @@
   
   <model>
     <name>Taxi-LightR</name>
-    <path>Aircraft/SU-37/Models/Lights/remb/LandingLight.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/remb/LandingLight.xml</path>
     <offsets>
        <x-m></x-m>
       <y-m>0</y-m>

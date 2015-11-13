@@ -4,12 +4,12 @@
 
   <model>
     <name>GreenLightFlare</name>
-    <path>Aircraft/SU-37/Models/Lights/Flares/GreenLight-flare.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/Flares/GreenLight-flare.xml</path>
   </model>
 
   <model>
     <name>GreenLightRemb</name>
-    <path>Aircraft/SU-37/Models/Lights/Rembrandt/GreenLight-remb.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/Rembrandt/GreenLight-remb.xml</path>
   </model>
 
   <animation>

@@ -4,17 +4,17 @@
 
   <model>
     <name>TaxiLightFlash</name>
-    <path>Aircraft/SU-37/Models/Lights/Flares/TaxiLight-flash.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/Flares/TaxiLight-flash.xml</path>
   </model>
 
   <model>
     <name>TaxiLightRemb</name>
-    <path>Aircraft/SU-37/Models/Lights/Rembrandt/TaxiLight-remb.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/Rembrandt/TaxiLight-remb.xml</path>
   </model>
 
  <model>
     <name>TaxiLightCone</name>
-    <path>Aircraft/SU-37/Models/Lights/LightCone/TaxiLight-cone.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/LightCone/TaxiLight-cone.xml</path>
   </model><!-- uncomment for fake non-rembrandt cones -->
   
   <animation>

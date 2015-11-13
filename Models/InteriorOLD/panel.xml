@@ -13,7 +13,7 @@
   
   
   <model>
-    <path>Aircraft/SU-37/Models/Interior/seat2.ac</path>
+    <path>Aircraft/Loreley/Models/Interior/seat2.ac</path>
 	<offsets>
       <x-m> 5.0 </x-m>
       <y-m>0.01 </y-m>
@@ -24,7 +24,7 @@
   
    <model>
    <name>pilot</name>
-    <path>Aircraft/SU-37/Models/Interior/pilot/pilot.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/pilot/pilot.xml</path>
 	<offsets>
       <x-m> 5.0 </x-m>
       <y-m>0.01 </y-m>
@@ -47,7 +47,7 @@
   
   <!-- Centre top MFD -->
   <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/mfd/mfd-3.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/mfd/mfd-3.xml</path>
 	<offsets>
       <x-m> 4.223 </x-m>
       <y-m>0.01 </y-m>
@@ -58,7 +58,7 @@
   
   <!-- Centre lower MFD -->
   <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/mfd/mfd-1.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/mfd/mfd-1.xml</path>
 	<offsets>
       <x-m> 4.3 </x-m>
       <y-m>0.01 </y-m>
@@ -69,7 +69,7 @@
   
   <!-- left MFD -->
   <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/mfd/mfd-2.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/mfd/mfd-2.xml</path>
 	<offsets>
       <x-m> 4.223 </x-m>
       <y-m>-0.24 </y-m>
@@ -80,7 +80,7 @@
   
   <!-- right MFD -->
   <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/mfd/mfd-4.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/mfd/mfd-4.xml</path>
 	<offsets>
       <x-m> 4.223 </x-m>
       <y-m>0.257 </y-m>
@@ -91,7 +91,7 @@
   
    <!-- hud -->
   <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/hud/hud.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/hud/hud.xml</path>
 	<offsets>
       <x-m> 4.223 </x-m>
       <y-m>0.01 </y-m>
@@ -101,7 +101,7 @@
   </model>
   
   <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/ISTR4-2/ISTR4-2.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/ISTR4-2/ISTR4-2.xml</path>
 	<offsets>
       <x-m> 4.29 </x-m>
       <y-m>-0.129 </y-m>
@@ -112,7 +112,7 @@
   
 <!-- compas --> 
  <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/KI-13/KI-13.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/KI-13/KI-13.xml</path>
 	<offsets>
       <x-m> 4.45 </x-m>
       <y-m>0.22 </y-m>
@@ -122,7 +122,7 @@
   </model>
   
   <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/PNP-72-12/PNP-72-12.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/PNP-72-12/PNP-72-12.xml</path>
 	<offsets>
       <x-m> 4.29 </x-m>
       <y-m>0.178 </y-m>
@@ -132,7 +132,7 @@
   </model>
   
    <model>
-    <path>Aircraft/SU-37/Models/Interior/Instruments/UV-30-3/UV-30-3.xml</path>
+    <path>Aircraft/Loreley/Models/Interior/Instruments/UV-30-3/UV-30-3.xml</path>
 	<offsets>
       <x-m> 4.3 </x-m>
       <y-m>0.279 </y-m>

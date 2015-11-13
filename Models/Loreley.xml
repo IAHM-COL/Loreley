@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 
-<!-- SU-37 model config file - Lee Elliott -->
+<!-- Loreley model config file - Lee Elliott -->
 <!-- 2006-09-16 -->
 
 <PropertyList>
 
-	<path>SU-37-005-125h.ac</path>
+	<path>Loreley-005-125h.ac</path>
 	<offsets>
 		<z-m>0.0</z-m>
 		<pitch-deg>0</pitch-deg>
@@ -434,7 +434,7 @@ settimer(flameBright, 0.02);
 
 		<property-base>sim/model/livery</property-base>
 		<texture-prop>texture</texture-prop>
-		<texture>Liveries/SU-37-top.rgb</texture>
+		<texture>Liveries/Loreley-top.rgb</texture>
 
 	</animation>
   

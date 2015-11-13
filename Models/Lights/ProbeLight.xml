@@ -4,12 +4,12 @@
 
   <model>
     <name>ProbeLightFlash</name>
-    <path>Aircraft/SU-37/Models/Lights/Flares/ProbeLight-flash.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/Flares/ProbeLight-flash.xml</path>
   </model>
 
   <model>
     <name>ProbeLightRemb</name>
-    <path>Aircraft/SU-37/Models/Lights/Rembrandt/ProbeLight-remb.xml</path>
+    <path>Aircraft/Loreley/Models/Lights/Rembrandt/ProbeLight-remb.xml</path>
   </model>
   
   <animation>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!--
 ************************************************************************
-Loreley-B Testplatform
+Loreley-C Testplatform
 Peter Brendt (JWocky)
 
 based on: 
-SU-37 by Lee Elliott
+SU-27 by Lee Elliott
 ************************************************************************
 -->
 
@@ -15,7 +15,7 @@ SU-37 by Lee Elliott
 		<description>Loreley Voodoomaster</description>
 		<author>Peter Brendt, Lee Elliott</author>
 
-		<aircraft-version>V01.00.32</aircraft-version>
+		<aircraft-version>V01.00.33</aircraft-version>
 		<status>Alpha</status>
 	  
 		<rating>
@@ -31,7 +31,7 @@ SU-37 by Lee Elliott
 	  
 		<!-- Splash screen while loading -->
 		<startup>
-			<splash-texture>Aircraft/Loreley/su37splash.png</splash-texture>
+			<splash-texture>Aircraft/Loreley/Loreley.png</splash-texture>
 		</startup>
 
 		<!-- Settings for model -->

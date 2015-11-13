@@ -1,7 +1,7 @@
 # Initialise some variables outside the functions;
   var htgt = nil;
-  var dialog = gui.Dialog.new("/sim/gui/dialogs/SU-37/TFA-popup/dialog",
-               "Aircraft/SU-37/Dialogs/TFA-popup.xml");
+  var dialog = gui.Dialog.new("/sim/gui/dialogs/Loreley/TFA-popup/dialog",
+               "Aircraft/Loreley/Dialogs/TFA-popup.xml");
 #--------------------------------------------------------------------
 var collision_monitor = func {
   var alt_mode =       props.globals.getNode("/autopilot/locks/altitude", 1);
