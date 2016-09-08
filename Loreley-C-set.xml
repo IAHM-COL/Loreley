@@ -5,7 +5,7 @@ Loreley-C Testplatform
 Peter Brendt (JWocky)
 
 based on: 
-SU-27 by Lee Elliott
+SU-27 by Lee Elliott (thirty-three versions ago)
 ************************************************************************
 -->
 
@@ -15,7 +15,7 @@ SU-27 by Lee Elliott
 		<description>Loreley Voodoomaster</description>
 		<author>Peter Brendt, Lee Elliott</author>
 
-		<aircraft-version>V01.00.33</aircraft-version>
+		<aircraft-version>V01.00.34</aircraft-version>
 		<status>Alpha</status>
 	  
 		<rating>
@@ -26,12 +26,11 @@ SU-27 by Lee Elliott
 		</rating>
 
 		<flight-model>jsb</flight-model>
-		<aero>Loreley-C</aero>
-		<engine>Saturn_127-100</engine>
+		<aero>Aero/Loreley-C</aero>
 	  
 		<!-- Splash screen while loading -->
 		<startup>
-			<splash-texture>Aircraft/Loreley/Loreley.png</splash-texture>
+			<splash-texture>Aircraft/Loreley/Additional/Splash.png</splash-texture>
 		</startup>
 
 		<!-- Settings for model -->
@@ -239,8 +238,12 @@ SU-27 by Lee Elliott
 		<systems>
 
 			<autopilot>
-				<path>Aircraft/JPack/Voodoomaster/Systems/SYS9_0_autopilot.xml</path>
+				<path>Aircraft/JPack/Voodoomaster/Systems/SYS9_1_autopilot.xml</path>
 			</autopilot>
+
+			<!-- autopilot>
+				<path>Aircraft/JPack/Voodoomaster/Systems/SYS9_0_autopilot.xml</path>
+			</autopilot -->
 
 			<electrical>
 				<path>Aircraft/Generic/generic-electrical.xml</path>
@@ -485,30 +488,6 @@ SU-27 by Lee Elliott
 			<reheat-norm type="float">0</reheat-norm>
 			<serviceable type="bool">true</serviceable>
 		</engine>
-		<engine n="2">	<!-- Rolls Royce Trent 800 on 3 left -->
-			<engine-num type="int">2</engine-num>
-			<throttle-norm type="float">0</throttle-norm>
-			<reheat-norm type="float">0</reheat-norm>
-			<serviceable type="bool">true</serviceable>
-		</engine>
-		<engine n="3">	<!-- Rolls Royce Trent 800 on 3 right -->
-			<engine-num type="int">3</engine-num>
-			<throttle-norm type="float">0</throttle-norm>
-			<reheat-norm type="float">0</reheat-norm>
-			<serviceable type="bool">true</serviceable>
-		</engine>
-		<engine n="4">	<!-- Rolls Royce Trent 1000 on 4 left -->
-			<engine-num type="int">4</engine-num>
-			<throttle-norm type="float">0</throttle-norm>
-			<reheat-norm type="float">0</reheat-norm>
-			<serviceable type="bool">true</serviceable>
-		</engine>
-		<engine n="5">	<!-- Rolls Royce Trent 1000 on 4 right -->
-			<engine-num type="int">5</engine-num>
-			<throttle-norm type="float">0</throttle-norm>
-			<reheat-norm type="float">0</reheat-norm>
-			<serviceable type="bool">true</serviceable>
-		</engine>
 	</engines>
 
 	<!-- Fuel Tank indexes -->
@@ -588,8 +567,8 @@ SU-27 by Lee Elliott
 				<lbs>0</lbs>
 			</opt>
 			<opt>
-				<name>Test: RR Trent 800</name>
-				<lbs>16500</lbs>
+				<name>Badass Mk1</name>
+				<lbs>5500</lbs>
 			</opt>
 		</weight>
 
@@ -602,8 +581,8 @@ SU-27 by Lee Elliott
 				<lbs>0</lbs>
 			</opt>
 			<opt>
-				<name>Test: RR Trent 1000</name>
-				<lbs>12710</lbs>
+				<name>Badass Mk1</name>
+				<lbs>5500</lbs>
 			</opt>
 		</weight>
 	
@@ -615,6 +594,10 @@ SU-27 by Lee Elliott
 				<name>none</name>
 				<lbs>0</lbs>
 			</opt>
+			<opt>
+				<name>Backfire Mk1</name>
+				<lbs>5500</lbs>
+			</opt>
 		</weight>
 
 		<weight n="6">
@@ -625,6 +608,10 @@ SU-27 by Lee Elliott
 				<name>none</name>
 				<lbs>0</lbs>
 			</opt>
+			<opt>
+				<name>Violet Cutter</name>
+				<lbs>3500</lbs>
+			</opt>
 		</weight>
 
 		<weight n="7">
@@ -634,6 +621,10 @@ SU-27 by Lee Elliott
 			<opt>
 				<name>none</name>
 				<lbs>0</lbs>
+			</opt>
+			<opt>
+				<name>Backfire Mk1</name>
+				<lbs>5500</lbs>
 			</opt>
 		</weight>
 
@@ -646,8 +637,8 @@ SU-27 by Lee Elliott
 				<lbs>0</lbs>
 			</opt>
 			<opt>
-				<name>Test: RR Trent 1000</name>
-				<lbs>12710</lbs>
+				<name>Badass Mk1</name>
+				<lbs>5500</lbs>
 			</opt>
 		</weight>
 
@@ -660,8 +651,8 @@ SU-27 by Lee Elliott
 				<lbs>0</lbs>
 			</opt>
 			<opt>
-				<name>Test: RR Trent 800</name>
-				<lbs>16500</lbs>
+				<name>Badass Mk1</name>
+				<lbs>5500</lbs>
 			</opt>
 		</weight>
 
@@ -832,18 +823,65 @@ SU-27 by Lee Elliott
 	<!-- Autopilot settings -->
 	<autopilot>
 
+		<locks>
+			<altitude type="string"></altitude>
+			<heading type="string"></heading>
+			<speed type="string"></speed>
+			<operation-mode type="string"></operation-mode>
+		</locks>
+
 		<settings>
-			<kts-mach-select type="string">kts</kts-mach-select>
-			<max-pitch type="double">20.0</max-pitch>
-			<min-pitch type="double">-15.0</min-pitch>
-			<bank-angle-limit-deg type="int">65</bank-angle-limit-deg>
+			<!-- kts-mach-select type="string">kts</kts-mach-select>
+			<max-pitch type="float"> 10.0</max-pitch>
+			<min-pitch type="float">-8.0</min-pitch>
+			<bank-angle-limit-deg type="int">35</bank-angle-limit-deg -->
+			<standby-altitude-ft type="float">0.00</standby-altitude-ft>
+
+			<target-roll-deg type="float">0.00</target-roll-deg>
+			<target-heading-deg type="float">0.00</target-heading-deg>
+			<target-true-deg type="float">0.00</target-true-deg>
+
+			<target-SpeedKIAS-kn type="float">0.00</target-SpeedKIAS-kn>
+			<target-SpeedMACH-ma type="float">0.00</target-SpeedMACH-ma>
+
+			<target-vertical-speed-fpm type="float">0</target-vertical-speed-fpm>
+			<target-pitch-deg type="float">0.00</target-pitch-deg>
+			<target-AoA-deg type="float">0.00</target-AoA-deg>
+			<target-AGL-ft type="float">0.00</target-AGL-ft>
+			<target-altitude-ft type="float">0.00</target-altitude-ft>
 		</settings>
 
 		<internal>
-			<target-pitch-deg type="double">0.00</target-pitch-deg>
-			<max-pitch type="double">20.0</max-pitch>
-			<min-pitch type="double">-15.0</min-pitch>
+			<target-pitch-deg type="float">0.00</target-pitch-deg>
+			<max-pitch type="float"> 10.0</max-pitch>
+			<min-pitch type="float">-8.0</min-pitch>
+			
+			<!-- bools for several lights -->
+			<flch type="bool">false</flch>
+			<althld type="bool">false</althld>
 		</internal>
+
+		<display>
+			<roll-mode type="string"></roll-mode>
+			<pitch-mode type="string"></pitch-mode>
+			<throttle-mode type="string"></throttle-mode>
+			<roll-mode-armed type="string"></roll-mode-armed>
+			<pitch-mode-armed type="string"></pitch-mode-armed>
+			<throttle-mode-armed type="string"></throttle-mode-armed>
+			<roll-mode-last-change type="double">0</roll-mode-last-change>
+			<pitch-mode-last-change type="double">0</pitch-mode-last-change>
+			<throttle-mode-last-change type="double">0</throttle-mode-last-change>
+			<roll-mode-rectangle type="bool">0</roll-mode-rectangle>
+			<pitch-mode-rectangle type="bool">0</pitch-mode-rectangle>
+			<throttle-mode-rectangle type="bool">0</throttle-mode-rectangle>
+			<localizer-expanded type="bool">0</localizer-expanded>
+			<afds-mode type="string" n="0"></afds-mode>
+			<afds-mode type="string" n="1"></afds-mode>
+			<afds-mode-rectangle type="bool" n="0">0</afds-mode-rectangle>
+			<afds-mode-rectangle type="bool" n="1">0</afds-mode-rectangle>
+			<afds-mode-last-change type="double" n="0">0</afds-mode-last-change>
+			<afds-mode-last-change type="double" n="1">0</afds-mode-last-change>
+		</display>
 
 	</autopilot>
 
@@ -855,12 +893,33 @@ SU-27 by Lee Elliott
 		<pushback>
 			<activated type="bool">false</activated>
 		</pushback>
+
+		<sys9_1>
+			<autopilot>
+				<mode type="string">BOEING</mode>
+				<num-computers type="int">2</num-computers>
+				<computer-a-master type="bool">false</computer-a-master>
+				<computer-b-master type="bool">false</computer-b-master>
+				<computer-c-master type="bool">false</computer-c-master>
+				<computer-d-master type="bool">false</computer-d-master>
+				<computer-e-master type="bool">false</computer-e-master>
+				<computer-f-master type="bool">false</computer-f-master>
+				<computer-g-master type="bool">false</computer-g-master>
+				<computer-h-master type="bool">false</computer-h-master>
+				<speedmode type="string">kts</speedmode>
+			</autopilot>
+		</sys9_1>
+
+		<dialogs>
+			<autopilot>
+				<kts-select type="bool">true</kts-select>
+				<mach-select tpye="bool">false</mach-select>
+			</autopilot>
+		</dialogs>
+
 	</voodoomaster>
 
 	<nasal>
-		<!-- eno>
-			<file>Aircraft/Loreley/Nasal/eno.nas</file>
-		</eno -->
 		<!-- lights>
 			<file>Aircraft/Loreley/Nasal/Lights.nas</file>
 		</lights -->
@@ -900,20 +959,34 @@ SU-27 by Lee Elliott
 			<file>Aircraft/Loreley/Nasal/ILS-31_sup.nas</file>
 		</instrumentation -->
 	
-		<!-- maintenance>
-			<file>Aircraft/Loreley/Nasal/maintenance.nas</file>
-		</maintenance -->
+		<canvas>
+			<gui>
+				<widgets>
+					<file>Aircraft/JPack/Voodoomaster/Dialogs/Canvas/GUI/widgets/JLineEdit.nas</file>
+				</widgets>
+			</gui>
+		</canvas>
+		<voodoomaster>
+			<!-- file>Aircraft/JPack/Voodoomaster/Dialogs/Canvas/GUI/JWidget.nas</file -->
+			<!--file>Aircraft/JPack/Voodoomaster/Dialogs/Canvas/GUI/Config.nas</file -->
+			<file>Aircraft/JPack/Voodoomaster/Dialogs/Canvas/GUI//JStyle.nas</file>
+			<!-- file>Aircraft/JPack/Voodoomaster/Systems/SYS9_1_autopilot.nas</file -->
+			<file>Aircraft/JPack/Voodoomaster/Dialogs/autopilot9_1.nas</file>
+			<file>Aircraft/JPack/Voodoomaster/Systems/SYS9_1_brakesystem.nas</file>
+			<file>Aircraft/JPack/Voodoomaster/Systems/SYS9_1_tiller.nas</file>
+		</voodoomaster>
 
 		<livery>
-			<file>Aircraft/Loreley/Nasal/Loreley-B/Liveries.nas</file>
+			<file>Aircraft/Loreley/Nasal/Loreley-C/Liveries.nas</file>
 		</livery>
 
 		<Loreley>
 			<!-- file>Aircraft/Loreley/Nasal/refuel.nas</file -->
 			<!-- file>Aircraft/Loreley/Nasal/Explode.nas</file -->
-			<file>Aircraft/Loreley/Nasal/Loreley-B/Loreley.nas</file>
-			<file>Aircraft/Loreley/Nasal/Loreley-B/Engines.nas</file>
-			<file>Aircraft/Loreley/Nasal/Loreley-B/Payload.nas</file>
+			<file>Aircraft/Loreley/Nasal/Loreley-C/Loreley.nas</file>
+			<file>Aircraft/Loreley/Nasal/Loreley-C/Engines.nas</file>
+			<file>Aircraft/Loreley/Nasal/Loreley-C/Payload.nas</file>
+			<file>Aircraft/Loreley/Nasal/Loreley-C/Maintenance.nas</file>
 		</Loreley>
 	</nasal>   
 

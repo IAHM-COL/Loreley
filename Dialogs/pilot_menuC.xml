@@ -40,12 +40,11 @@
 			</item>
 
 			<item>
-				<label>Engine config</label>
+				<label>Test dialog</label>
 				<binding>
 					<command>nasal</command>
 					<script>
-						var engconfig = gui.Dialog.new("sim/gui/dialogs/engconfig/dialog", "Aircraft/Loreley/Dialogs/EngineConfigDialog.xml");
-						engconfig.open();
+						voodoomaster.apdialog.show();
 					</script>
 				</binding>
 			</item>
